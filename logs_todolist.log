@@ -1,0 +1,423 @@
+08-23 22:03:32.487 13624 13624 W Looper  : Slow Looper main: Activity com.android.todolist/.MainActivity is 432ms late (wall=0ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 2 msg, msg 1 took 412ms (seq=2 running=279ms runnable=36ms io=62ms late=2ms h=android.app.ActivityThread$H w=110), msg 2 took 270ms (seq=3 running=215ms runnable=12ms io=15ms late=162ms h=android.app.ActivityThread$H w=159)
+08-23 22:24:28.530  1610  4286 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[76,1065][244,1233] (has extras)} from uid 10060
+08-23 22:24:28.694  1610  4590 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:24:29.051  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3196fb1 u0 com.android.todolist/.MainActivity t19222} time:283847000
+08-23 22:25:43.889  1610  4287 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:25:44.046  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3196fb1 u0 com.android.todolist/.MainActivity t19222} time:283921995
+08-23 22:27:03.695  1610  2549 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:27:03.903  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3196fb1 u0 com.android.todolist/.MainActivity t19222} time:284001852
+08-23 22:30:06.661  1610  1729 V AppStateTracker: Package com.android.todolist/10010 toggled into fg service restriction
+08-23 22:30:06.663  1610  1729 V AppStateTracker: Package com.android.todolist/10010 toggled into fg service restriction
+08-23 22:30:19.907  1610  2410 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[77,1066][245,1234] (has extras)} from uid 10060
+08-23 22:30:20.030  1610  4196 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:30:20.402  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3196fb1 u0 com.android.todolist/.MainActivity t19222} time:284198351
+08-23 22:30:26.059  1610  1662 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:30:26.436  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3196fb1 u0 com.android.todolist/.MainActivity t19222} time:284204385
+08-23 22:34:19.034  1610  1729 V AppStateTracker: Package com.android.todolist/10010 toggled into fg service restriction
+08-23 22:34:19.035  1610  1729 V AppStateTracker: Package com.android.todolist/10010 toggled into fg service restriction
+08-23 22:34:24.074  1610  4207 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:34:24.192  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3196fb1 u0 com.android.todolist/.MainActivity t19222} time:284442141
+08-23 22:34:25.752  1610  1663 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:37:26.696  1610  1729 V AppStateTracker: Package com.android.todolist/10010 toggled into fg service restriction
+08-23 22:37:26.697  1610  1729 V AppStateTracker: Package com.android.todolist/10010 toggled into fg service restriction
+08-23 22:38:25.941  1610  2534 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[77,1066][245,1234] (has extras)} from uid 10060
+08-23 22:38:25.985  1610  2534 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 22:38:26.243  1610  2534 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:38:26.340  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{36fcf47 u0 com.android.todolist/.MainActivity t19233} time:284684289
+08-23 22:38:51.246  1610  4207 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:38:52.827  1610  4207 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:38:52.892  1610  4266 D PerfShielderService: com.android.todolist|com.android.todolist/com.android.todolist.MainActivity|202|284709054518105|196|5|2
+08-23 22:38:52.893  1610  4266 D PerfShielderService: com.android.todolist|com.android.todolist/com.android.todolist.MainActivity|448|284709334045761|222|0|2
+08-23 22:38:52.893  4187 30394 W MiuiPerfServiceClient: interceptAndQueuing:13624|com.android.todolist|202|196|unknown|null|com.android.todolist/com.android.todolist.MainActivity|284709054518105|Slow issue draw commands|2
+08-23 22:38:52.914  4187 30394 W MiuiPerfServiceClient: interceptAndQueuing:13624|com.android.todolist|448|222|unknown|null|com.android.todolist/com.android.todolist.MainActivity|284709334045761|Slow main thread|2
+08-23 22:38:53.536  1610  4266 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 22:38:53.553  1610  2534 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 22:38:53.701  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:38:54.259  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{6a1992e u0 com.android.todolist/.ListActivity t19233} time:284712209
+08-23 22:38:54.850  1610  4266 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@78e324
+08-23 22:38:56.870  1610  4207 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@1e4d443
+08-23 22:38:59.588  1610  4207 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:39:02.525  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:39:02.611  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:39:05.032  1610  2410 D PerfShielderService: com.android.todolist|com.android.todolist/com.android.todolist.ListActivity|276|284722499613933|72|5|11
+08-23 22:39:05.038  4187 30394 W MiuiPerfServiceClient: interceptAndQueuing:13624|com.android.todolist|276|72|unknown|null|com.android.todolist/com.android.todolist.ListActivity|284722499613933|Slow issue draw commands|11
+08-23 22:39:11.797  1610  2410 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:39:13.819  1610  4178 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@ac17e47
+08-23 22:39:32.864  1610  2831 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10010
+08-23 22:39:32.888  1610  2831 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 22:39:32.994  1610  4178 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:39:33.577  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b4bac27 u0 com.android.todolist/.MainActivity t19233} time:284751526
+08-23 22:39:40.723  1610  2831 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:39:41.343  1610  4203 D PerfShielderService: com.android.todolist|com.android.todolist/com.android.todolist.MainActivity|276|284759144792877|51|5|15
+08-23 22:39:41.346  4187 30394 W MiuiPerfServiceClient: interceptAndQueuing:13624|com.android.todolist|276|51|unknown|null|com.android.todolist/com.android.todolist.MainActivity|284759144792877|Slow issue draw commands|15
+08-23 22:39:43.263  1610  2831 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:40:54.254  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:40:54.442  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b4bac27 u0 com.android.todolist/.MainActivity t19233} time:284832391
+08-23 22:40:57.266  1610  2410 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:40:57.797  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{36fcf47 u0 com.android.todolist/.MainActivity t19233} time:284835746
+08-23 22:41:23.363  1610  2410 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[77,1066][245,1234] (has extras)} from uid 10060
+08-23 22:41:23.390  1610  2410 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 22:41:23.544  1610  4203 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:41:23.752  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{992fbc4 u0 com.android.todolist/.MainActivity t19235} time:284861701
+08-23 22:41:25.411  1610  4203 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 22:41:25.429  1610  4203 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 22:41:25.588  1610  2831 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:41:26.120  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b5dc78e u0 com.android.todolist/.ListActivity t19235} time:284864069
+08-23 22:41:27.442  1610  2831 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@dda7f87
+08-23 22:41:27.867  1610  2534 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:41:29.578  1610  4203 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:41:30.713  1610  2831 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:41:31.245  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{992fbc4 u0 com.android.todolist/.MainActivity t19235} time:284869195
+08-23 22:44:31.871  1610  1729 V AppStateTracker: Package com.android.todolist/10010 toggled into fg service restriction
+08-23 22:44:31.871  1610  1729 V AppStateTracker: Package com.android.todolist/10010 toggled into fg service restriction
+08-23 22:46:16.891  1610  4266 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[77,1066][245,1234] (has extras)} from uid 10060
+08-23 22:46:16.921  1610  4266 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 22:46:17.088  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:17.296  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{9d8772a u0 com.android.todolist/.MainActivity t19237} time:285155245
+08-23 22:46:29.720  1610  4203 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:30.931  1610  4286 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.Info} from uid 10010
+08-23 22:46:30.951  1610  4286 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:30.959  1610  4286 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 22:46:31.103  1610  4203 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:31.654  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{1252d19 u0 com.android.todolist/.Info t19237} time:285169603
+08-23 22:46:32.862  1610  4203 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:33.370  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{9d8772a u0 com.android.todolist/.MainActivity t19237} time:285171319
+08-23 22:46:34.136  1610  4286 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:34.865  1610  4266 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.About} from uid 10010
+08-23 22:46:34.886  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:34.894  1610  4266 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 22:46:35.036  1610  4286 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:35.597  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{7098016 u0 com.android.todolist/.About t19237} time:285173546
+08-23 22:46:36.741  1610  1662 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:37.272  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{9d8772a u0 com.android.todolist/.MainActivity t19237} time:285175221
+08-23 22:46:37.705  1610  4266 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 22:46:37.728  1610  4266 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 22:46:37.864  1610  1662 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:38.407  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{c9c6250 u0 com.android.todolist/.ListActivity t19237} time:285176356
+08-23 22:46:39.743  1610  1662 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@3289fba
+08-23 22:46:42.526  1610  1662 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:43.925  1610  1662 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:45.025  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:46.617  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:47.775  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:48.581  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:48.651  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:52.697  1610  2696 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:53.750  1610  1662 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:54.709  1610  1662 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@2f2acb1
+08-23 22:46:54.726  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:55.353  1610  1662 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10010
+08-23 22:46:55.378  1610  2696 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 22:46:55.462  1610  2696 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:56.025  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{5d73d04 u0 com.android.todolist/.MainActivity t19237} time:285193974
+08-23 22:46:56.840  1610  2696 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:59.533  1610  2696 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:46:59.590  1610  2696 D PerfShielderService: com.android.todolist|com.android.todolist/com.android.todolist.MainActivity|342|285195298540263|56|5|17
+08-23 22:46:59.591  4187 30394 W MiuiPerfServiceClient: interceptAndQueuing:13624|com.android.todolist|342|56|unknown|null|com.android.todolist/com.android.todolist.MainActivity|285195298540263|Slow issue draw commands|17
+08-23 22:47:01.568  1610  2696 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@afcf271
+08-23 22:47:06.598  1610  2696 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:47:09.073  1610  2534 D PerfShielderService: com.android.todolist|com.android.todolist/com.android.todolist.MainActivity|258|285204967398072|53|5|12
+08-23 22:47:09.073  4187 30394 W MiuiPerfServiceClient: interceptAndQueuing:13624|com.android.todolist|258|53|unknown|null|com.android.todolist/com.android.todolist.MainActivity|285204967398072|Slow issue draw commands|12
+08-23 22:47:19.432  1610  1663 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:47:21.137  1610  1663 D PerfShielderService: com.android.todolist|com.android.todolist/com.android.todolist.MainActivity|246|285217611014942|55|5|10
+08-23 22:47:21.140  4187  4237 W MiuiPerfServiceClient: interceptAndQueuing:13624|com.android.todolist|246|55|unknown|null|com.android.todolist/com.android.todolist.MainActivity|285217611014942|Slow issue draw commands|10
+08-23 22:48:49.857  1610  4286 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:48:50.080  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{5d73d04 u0 com.android.todolist/.MainActivity t19237} time:285308030
+08-23 22:48:51.236  1610  4203 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 22:48:51.756  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{9d8772a u0 com.android.todolist/.MainActivity t19237} time:285309705
+08-23 22:51:52.649  1610  1729 V AppStateTracker: Package com.android.todolist/10010 toggled into fg service restriction
+08-23 22:51:52.650  1610  1729 V AppStateTracker: Package com.android.todolist/10010 toggled into fg service restriction
+08-23 23:09:48.873  1610  4203 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[76,1065][244,1233] (has extras)} from uid 10060
+08-23 23:09:48.900  1610  4203 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:09:49.246  1610  4203 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:09:49.365  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3e3fa88 u0 com.android.todolist/.MainActivity t19238} time:286567314
+08-23 23:09:51.563  1610  4266 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 23:09:51.580  1610  4266 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:09:51.724  1610  3084 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:09:52.256  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{339a5eb u0 com.android.todolist/.ListActivity t19238} time:286570205
+08-23 23:09:53.575  1610  3084 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@c6fd343
+08-23 23:09:56.021  1610  3082 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:09:57.166  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:09:58.195  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:09:59.106  1610  3082 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:09:59.970  1610  3082 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:00.706  1610  3084 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:02.171  1610  3082 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:03.224  1610  3082 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:03.880  1610  3084 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10010
+08-23 23:10:03.902  1610  2696 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:10:03.999  1610  3084 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:04.575  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3d4821c u0 com.android.todolist/.MainActivity t19238} time:286582525
+08-23 23:10:05.660  1610  2696 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 23:10:05.686  1610  2696 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:10:05.794  1610  2696 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:06.330  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{41e1f38 u0 com.android.todolist/.ListActivity t19238} time:286584279
+08-23 23:10:07.120  1610  3084 D PerfShielderService: com.android.todolist|com.android.todolist/com.android.todolist.ListActivity|256|286584840645618|251|5|2
+08-23 23:10:07.121  4187  4237 W MiuiPerfServiceClient: interceptAndQueuing:13624|com.android.todolist|256|251|unknown|null|com.android.todolist/com.android.todolist.ListActivity|286584840645618|Slow issue draw commands|2
+08-23 23:10:07.677  1610  4269 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@4ca154b
+08-23 23:10:20.567  1610  4203 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10010
+08-23 23:10:20.591  1610  2696 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:10:20.678  1610  2696 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:21.249  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{edf09ca u0 com.android.todolist/.MainActivity t19238} time:286599198
+08-23 23:10:22.075  1610  4203 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 23:10:22.101  1610  3084 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:10:22.216  1610  3084 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:22.746  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{c4cd907 u0 com.android.todolist/.ListActivity t19238} time:286600695
+08-23 23:10:23.592  1610  2696 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10010
+08-23 23:10:23.616  1610  2696 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:10:23.701  1610  2696 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:24.081  1610  2696 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@48664c7
+08-23 23:10:24.274  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{e3bc6fb u0 com.android.todolist/.MainActivity t19238} time:286602223
+08-23 23:10:24.586  1610  3082 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 23:10:24.611  1610  3084 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:10:24.704  1610  2696 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:25.245  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{d0525bf u0 com.android.todolist/.ListActivity t19238} time:286603195
+08-23 23:10:26.620  1610  3082 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@f10e7d8
+08-23 23:10:26.682  1610  3082 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10010
+08-23 23:10:26.703  1610  3082 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:10:26.781  1610  2696 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:27.332  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{9e6b731 u0 com.android.todolist/.MainActivity t19238} time:286605281
+08-23 23:10:28.630  1610  3084 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:29.729  1610  3084 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:31.739  1610  3082 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@6f0ed3f
+08-23 23:10:35.354  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:36.445  1610  5369 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.Info} from uid 10010
+08-23 23:10:36.465  1610  5369 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:36.472  1610  5369 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:10:36.567  1610  5369 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:37.086  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{33d1835 u0 com.android.todolist/.Info t19238} time:286615035
+08-23 23:10:37.623  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:10:38.133  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{9e6b731 u0 com.android.todolist/.MainActivity t19238} time:286616083
+08-23 23:11:19.204  1610  5370 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:11:19.406  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{9e6b731 u0 com.android.todolist/.MainActivity t19238} time:286657355
+08-23 23:11:21.015  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:11:21.530  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{e3bc6fb u0 com.android.todolist/.MainActivity t19238} time:286659479
+08-23 23:11:22.127  1610  4178 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:11:22.661  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{edf09ca u0 com.android.todolist/.MainActivity t19238} time:286660610
+08-23 23:11:23.127  1610  4203 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:11:23.644  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3d4821c u0 com.android.todolist/.MainActivity t19238} time:286661593
+08-23 23:11:23.862  1610  4270 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:11:24.377  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3e3fa88 u0 com.android.todolist/.MainActivity t19238} time:286662326
+08-23 23:12:13.920  1610  3084 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[78,1068][246,1236] (has extras)} from uid 10060
+08-23 23:12:13.949  1610  4178 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:12:14.080  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:12:14.323  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{c94c729 u0 com.android.todolist/.MainActivity t19239} time:286712272
+08-23 23:12:16.018 11166 11183 I GST     : forePkg: com.miui.home, preForePkg: com.android.todolist
+08-23 23:12:16.831  1610  4178 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[78,1068][246,1236] (has extras)} from uid 10060
+08-23 23:12:16.855  1610  3084 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:12:16.858 11166 11183 I GST     : forePkg: com.android.todolist, preForePkg: com.miui.home
+08-23 23:12:16.887 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@fcef92b
+08-23 23:12:16.895 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@fcef92b
+08-23 23:12:16.898 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@fcef92b
+08-23 23:12:16.909 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@fcef92b
+08-23 23:12:16.912 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@fcef92b
+08-23 23:12:16.914 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@fcef92b
+08-23 23:12:16.917 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@fcef92b
+08-23 23:12:16.946 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@fcef92b
+08-23 23:12:16.960  1610  4266 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:12:16.988 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@fcef92b
+08-23 23:12:17.207  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{ee526ed u0 com.android.todolist/.MainActivity t19240} time:286715157
+08-23 23:12:32.682  5439  6034 D PowerCheckerService: foreground, uid = 10010, app = com.android.todolist
+08-23 23:12:36.441  5439  6034 D PowerCheckerService: foreground, uid = 10010, app = com.android.todolist
+08-23 23:12:36.544  1610  2696 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:12:36.725  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{ee526ed u0 com.android.todolist/.MainActivity t19240} time:286734674
+08-23 23:12:48.911 11166 11183 I GST     : forePkg: com.android.systemui, preForePkg: com.android.todolist
+08-23 23:12:48.912  5439  7602 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.android.systemui', mForegroundUid=1000, mForegroundPid=2390, mLastForegroundPackageName='com.android.todolist', mLastForegroundUid=10010, mLastForegroundPid=13624, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+08-23 23:14:32.185  2789  2789 D Launcher.CellLayout: touch item:ShortcutInfo, id=123, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.android.todolist, className=com.android.todolist.MainActivity, screenId=4, container=-100, cellX=0, cellY=3, spanX=1, spanY=1, isLandscapePos=false
+08-23 23:14:32.241  1610  4270 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[77,1066][245,1234] (has extras)} from uid 10060
+08-23 23:14:32.266  4617 23923 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10010, mForegroundPid=13624, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10060, mLastForegroundPid=2789, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+08-23 23:14:32.266  4617 23923 I GameBoosterService: onForegroundInfoChanged: Cur=com.android.todolist	 last=com.miui.home
+08-23 23:14:32.266  5439  7602 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10010, mForegroundPid=13624, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10060, mLastForegroundPid=2789, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+08-23 23:14:32.266 11166 11183 I GST     : forePkg: com.android.todolist, preForePkg: com.miui.home
+08-23 23:14:32.266 24169 24187 D AutoInstallService: onForegroundInfoChanged: com.android.todolist
+08-23 23:14:32.273  4617 23923 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10010, mForegroundPid=13624, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10060, mLastForegroundPid=2789, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+08-23 23:14:32.296  1610  4270 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:32.611  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{ee526ed u0 com.android.todolist/.MainActivity t19240} time:286850560
+08-23 23:14:34.249 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@fcef92b
+08-23 23:14:34.256 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@fcef92b
+08-23 23:14:34.271  1610  5369 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 23:14:34.294 13624 13624 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+08-23 23:14:34.297  1610  5369 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:14:34.338 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:34.338 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:34.356 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:34.373 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 5 lines
+08-23 23:14:34.375 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:34.416 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:34.436  1610  1663 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:34.426 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 7 lines
+08-23 23:14:34.427 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:34.477  1610  1756 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +198ms
+08-23 23:14:34.975  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{a244131 u0 com.android.todolist/.ListActivity t19240} time:286852924
+08-23 23:14:36.308  1610  3082 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@9d5d426
+08-23 23:14:41.022  1610  4270 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:42.602  1610  3082 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:42.615 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:42.626 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 7 lines
+08-23 23:14:42.627 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:43.599  1610  3082 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:44.685  1610  4270 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:44.693 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:44.703 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 7 lines
+08-23 23:14:44.704 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:46.251  1610  1663 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:48.574  1610  1663 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:48.587 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:48.588 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:48.644  1610  1663 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:50.065 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:50.106  4079  4079 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable : AutoStartEmojiInput = Disable : SimulateDeviceLocked = False : imeActionName = DONE : imeOptions = 6 : privateImeOptions = null, IncognitoMode = false, DeviceLocked = false
+08-23 23:14:50.183 24570 31046 W nhz     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-23 23:14:50.201 24570 31975 W nhz     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-23 23:14:52.565 13624 13752 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.ListActivity, count=3, avg=18 ms, max=24 ms.
+08-23 23:14:53.457 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:53.462 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:53.488  1610  5369 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:53.499  1610  5369 E InputDispatcher: Window handle Window{dac0662 u0 com.android.todolist/com.android.todolist.ListActivity} has no registered input channel
+08-23 23:14:53.509 13624 13624 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+08-23 23:14:54.714  1610  1663 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:55.505  1610  5369 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@c4ecaff
+08-23 23:14:56.307  1610  5369 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:56.319 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:56.359  1610  4270 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:14:56.320 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:57.892 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:14:57.922  4079  4079 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable : AutoStartEmojiInput = Disable : SimulateDeviceLocked = False : imeActionName = DONE : imeOptions = 6 : privateImeOptions = null, IncognitoMode = false, DeviceLocked = false
+08-23 23:14:57.944 24570 31046 W nhz     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-23 23:14:57.954 24570 28419 W nhz     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-23 23:15:11.031  1610  4270 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:15:11.038  1610  4270 E InputDispatcher: Window handle Window{64ff22a u0 com.android.todolist/com.android.todolist.ListActivity} has no registered input channel
+08-23 23:15:11.050 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:15:11.051 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 1 line
+08-23 23:15:11.052 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@32d4638
+08-23 23:15:11.275 13624 13752 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.ListActivity, count=3, avg=23 ms, max=23 ms.
+08-23 23:15:12.742  1610  4270 D PerfShielderService: com.android.todolist|com.android.todolist/com.android.todolist.ListActivity|189|286889291217012|58|5|10
+08-23 23:15:12.744  4187  4237 W MiuiPerfServiceClient: interceptAndQueuing:13624|com.android.todolist|189|58|unknown|null|com.android.todolist/com.android.todolist.ListActivity|286889291217012|Slow issue draw commands|10
+08-23 23:15:12.764 13624 13752 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.ListActivity, count=1, avg=18 ms, max=18 ms.
+08-23 23:15:13.547  1610  4589 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10010
+08-23 23:15:13.569  1610  4270 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:15:13.587 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@40ea87b
+08-23 23:15:13.608 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 15 lines
+08-23 23:15:13.608 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@40ea87b
+08-23 23:15:13.633 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@40ea87b
+08-23 23:15:13.668  1610  3084 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:15:13.695 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 21 lines
+08-23 23:15:13.696 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@40ea87b
+08-23 23:15:13.717  1610  1756 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +167ms
+08-23 23:15:14.224  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{d760748 u0 com.android.todolist/.MainActivity t19240} time:286892173
+08-23 23:15:21.010 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@40ea87b
+08-23 23:15:21.019 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 4 lines
+08-23 23:15:21.021 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@40ea87b
+08-23 23:15:25.032 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@40ea87b
+08-23 23:15:25.044 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 4 lines
+08-23 23:15:25.046 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@40ea87b
+08-23 23:15:27.628 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@40ea87b
+08-23 23:15:27.629 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@40ea87b
+08-23 23:15:27.645  1610  4270 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 23:15:27.667 13624 13624 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+08-23 23:15:27.669  1610  3082 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:15:27.706 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@c271c4e
+08-23 23:15:27.707 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@c271c4e
+08-23 23:15:27.719 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@c271c4e
+08-23 23:15:27.720 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 2 lines
+08-23 23:15:27.721 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@c271c4e
+08-23 23:15:27.729 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@c271c4e
+08-23 23:15:27.730 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@c271c4e
+08-23 23:15:27.732 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@c271c4e
+08-23 23:15:27.773  1610  4270 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:15:27.817  1610  1756 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +158ms
+08-23 23:15:28.319  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{424c653 u0 com.android.todolist/.ListActivity t19240} time:286906268
+08-23 23:15:29.517  1610  4270 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10010
+08-23 23:15:29.538  1610  4270 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:15:29.556 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@487b693
+08-23 23:15:29.616  1610  4270 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:15:29.642 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 38 lines
+08-23 23:15:29.643 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@487b693
+08-23 23:15:29.667  1610  1756 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +147ms
+08-23 23:15:29.681  1610  3084 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@8e5dc
+08-23 23:15:30.165  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b7e47b9 u0 com.android.todolist/.MainActivity t19240} time:286908114
+08-23 23:15:30.962 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@487b693
+08-23 23:15:30.981  1610  4589 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 23:15:30.963 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@487b693
+08-23 23:15:31.004 13624 13624 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+08-23 23:15:31.006  1610  3084 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:15:31.042 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@aa50ab2
+08-23 23:15:31.054 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 4 lines
+08-23 23:15:31.054 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@aa50ab2
+08-23 23:15:31.061 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@aa50ab2
+08-23 23:15:31.062 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 1 line
+08-23 23:15:31.064 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@aa50ab2
+08-23 23:15:31.106  1610  4270 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:15:31.137  1610  1756 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +154ms
+08-23 23:15:31.649  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{265653f u0 com.android.todolist/.ListActivity t19240} time:286909598
+08-23 23:15:32.607  1610  3084 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10010
+08-23 23:15:32.626  1610  5364 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:15:32.643 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7832832
+08-23 23:15:32.665 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 15 lines
+08-23 23:15:32.665 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7832832
+08-23 23:15:32.689 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7832832
+08-23 23:15:32.704  1610  5364 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:15:32.727 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 21 lines
+08-23 23:15:32.728 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7832832
+08-23 23:15:32.755  1610  1756 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +143ms
+08-23 23:15:32.989  1610  4589 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@66350d2
+08-23 23:15:33.267  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{28f2304 u0 com.android.todolist/.MainActivity t19240} time:286911217
+08-23 23:15:34.117  1610  3084 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:15:34.890  1610  3084 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:15:40.005 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7832832
+08-23 23:15:40.021  1610  3084 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 23:15:40.006 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7832832
+08-23 23:15:40.042 13624 13624 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+08-23 23:15:40.045  1610  3084 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:15:40.082 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@9ee2458
+08-23 23:15:40.099 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 7 lines
+08-23 23:15:40.100 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@9ee2458
+08-23 23:15:40.137 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@9ee2458
+08-23 23:15:40.153  1610  3084 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:15:40.144 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 7 lines
+08-23 23:15:40.145 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@9ee2458
+08-23 23:15:40.191  1610  1756 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +165ms
+08-23 23:15:40.703  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{68d0fef u0 com.android.todolist/.ListActivity t19240} time:286918652
+08-23 23:15:42.058  1610  3084 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@1b3633a
+08-23 23:15:42.356  1610  4589 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10010
+08-23 23:15:42.384  1610  4589 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:15:42.401 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@27a5ba2
+08-23 23:15:42.457  1610  4589 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:15:42.483 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 38 lines
+08-23 23:15:42.484 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@27a5ba2
+08-23 23:15:42.524  1610  1756 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +162ms
+08-23 23:15:43.032  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b09e7e1 u0 com.android.todolist/.MainActivity t19240} time:286920981
+08-23 23:15:44.237 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@27a5ba2
+08-23 23:15:44.250  1610  5364 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10010
+08-23 23:15:44.238 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@27a5ba2
+08-23 23:15:44.273 13624 13624 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+08-23 23:15:44.276  1610  5364 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:15:44.314 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@5214bc9
+08-23 23:15:44.334 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 7 lines
+08-23 23:15:44.335 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@5214bc9
+08-23 23:15:44.368  1610  4270 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:15:44.395  1610  1756 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +142ms
+08-23 23:15:44.907  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b747f8e u0 com.android.todolist/.ListActivity t19240} time:286922856
+08-23 23:15:45.354  4079  4079 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable : AutoStartEmojiInput = Disable : SimulateDeviceLocked = False : imeActionName = DONE : imeOptions = 6 : privateImeOptions = null, IncognitoMode = false, DeviceLocked = false
+08-23 23:15:45.451 24570 31046 W nhz     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-23 23:15:45.462 24570 31975 W nhz     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-23 23:15:46.295  1610  5364 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@b44bdb2
+08-23 23:15:54.787  4079  4079 I AndroidIME: AbstractIme.onActivate():86 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable : AutoStartEmojiInput = Disable : SimulateDeviceLocked = False : imeActionName = UNSPECIFIED : imeOptions = 0 : privateImeOptions = null, IncognitoMode = false, DeviceLocked = false
+08-23 23:15:55.410 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@5214bc9
+08-23 23:15:55.411 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 1 line
+08-23 23:15:55.414 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@5214bc9
+08-23 23:15:59.171  1610  5364 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:16:00.163  1610  5364 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:16:01.443  1610  3082 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:16:01.453  1610  3082 E InputDispatcher: Window handle Window{b2e27ae u0 com.android.todolist/com.android.todolist.ListActivity} has no registered input channel
+08-23 23:16:02.325  1610  3082 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10010
+08-23 23:16:02.346  1610  3082 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 13624
+08-23 23:16:02.365 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@8f05c2c
+08-23 23:16:02.432  1610  5364 I MiuiKnockGestureService: focus window:com.android.todolist
+08-23 23:16:02.460 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 38 lines
+08-23 23:16:02.460 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@8f05c2c
+08-23 23:16:02.488  1610  1756 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +158ms
+08-23 23:16:02.972  1610  1733 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{8c9d85e u0 com.android.todolist/.MainActivity t19240} time:286940921
+08-23 23:16:06.541 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@8f05c2c
+08-23 23:16:06.551 13624 13624 I chatty  : uid=10010(com.android.todolist) identical 4 lines
+08-23 23:16:06.554 13624 13624 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@8f05c2c
