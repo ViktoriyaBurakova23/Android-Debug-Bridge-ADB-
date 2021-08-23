@@ -1,0 +1,19 @@
+Самые распространенные команды ADB
+
+adb devices - вывод данных об устройствах, которые подключены к ПК, а также их серии;
+
+adb shell pm list packages - вывод списка установленных приложений (пакетов);
+
+adb uninstall <package name> - удаление программы по имени ее пакета;
+
+adb push <local source file path> <device destination file path> - копирование файлов с компьютера на устройство;
+
+adb pull <device source file path> <local destination file path> - копирование файлов с устройства на компьютер;
+
+adb logcat - сбор логов с устройства и отображение их в командной строке;
+
+adb logcat | findstr <package name> > <path to file.log> - фильтрация и сбор логов с приложения в файл (для Windows);
+
+adb logcat | grep -rnw <package name> > <path to file.log> - фильтрация и сбор логов с приложения в файл (для Linux и MacOS);
+
+adb shell screencap <path to file.png> - скриншот с устройства.
